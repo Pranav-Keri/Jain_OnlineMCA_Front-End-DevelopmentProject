@@ -4,13 +4,13 @@
 .navbar-brand{
     color: darkgoldenrod;
 }
-.nav-link, .dropdown-item, .display-4, .lead,{
+.nav-link, .dropdown-item, .display-4, .lead{
     color: antiquewhite;
 }
 .jumbotron{
     background-color: #04afd1;
     background:
-    url(tourist-TajMahal.jpg);
+    url(tajMahal.jpg);
     width: 100%;
     height: 90vh;
 }
