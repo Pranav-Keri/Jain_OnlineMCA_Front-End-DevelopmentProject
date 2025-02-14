@@ -1,8 +1,6 @@
-body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
 .bgcustom{
     background-color: #0770ad;
+}
+.nav-link, .navbar-brand{
+    color: antiquewhite;
 }
