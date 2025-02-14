@@ -1,17 +1,13 @@
-.navbar a {
-    color: #FFC107; /* Gold color */
-    text-decoration: none;
-    font-size: 18px;
-}
-.navbar a:hover {
-    color: #FFC107; /* Keep the same color */
-    text-decoration: none;
-}
 .bg-custom{
     background-color: #04afd1;
 }
 .navbar-brand{
     color: darkgoldenrod;
+    text-decoration: none;
+}
+.navbar-brand a:hover{
+    color: darkgoldenrod;
+    text-decoration: none;
 }
 .nav-link, .dropdown-item, .display-4, .display-1{
     color: antiquewhite;
