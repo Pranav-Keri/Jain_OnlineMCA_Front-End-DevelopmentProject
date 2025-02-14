@@ -5,17 +5,18 @@
     color: darkgoldenrod;
     text-decoration: none;
 }
-.navbar-brand hover{
-    color: darkgoldenrod;
-    text-decoration: none;
-}
 .nav-link, .dropdown-item, .display-4, .display-1{
     color: antiquewhite;
 }
 .jumbotron{
     align-items: center;
-    align-content: center;
+    justify-content: center;
     background-color: #04afd1;
     background:
     url(tajMahal.jpg);
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+    object-fit: cover;
+    width: 100%;
 }
