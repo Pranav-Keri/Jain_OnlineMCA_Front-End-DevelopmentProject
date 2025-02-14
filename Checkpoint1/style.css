@@ -1,7 +1,4 @@
-body{
-    background-image: linear-gradient(135deg, #005F99, #FFC107, #F8F9FA);
-    background-attachment: fixed;
-}
+
 .navbar-nav{
     list-style: none;
     margin:0;
