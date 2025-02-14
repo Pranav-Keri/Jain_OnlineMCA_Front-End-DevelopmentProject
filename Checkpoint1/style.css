@@ -7,6 +7,7 @@
 .navbar-brand {
     color: darkgoldenrod;
     text-decoration: none;
+    padding: auto;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -17,6 +18,9 @@
     color: antiquewhite !important;
 }
 
+.dropdown-item {
+    color: darkslategrey !important;
+}
 /* Hover Effect for Dropdown */
 .navbar-nav .dropdown:hover .dropdown-menu {
     display: block;
