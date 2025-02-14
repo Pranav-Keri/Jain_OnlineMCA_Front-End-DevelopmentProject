@@ -4,7 +4,7 @@
 .navbar-brand{
     color: darkgoldenrod;
 }
-.nav-link, .dropdown-item, .display-4, .lead{
+.nav-link, .dropdown-item, .display-4, .display-1{
     color: antiquewhite;
 }
 .jumbotron{
