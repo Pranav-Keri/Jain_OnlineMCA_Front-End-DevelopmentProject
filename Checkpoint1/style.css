@@ -1,6 +1,10 @@
 body{
-    background-image: linear-gradient(#0a2b78, #0c3cab, #1250e0);
+    background-image: linear-gradient(135deg, #005F99, #FFC107, #F8F9FA);
     background-attachment: fixed;
+}
+.brand_logo{
+    width: 200px;
+    margin-top: 20px;
 }
 ul{
     list-style: none;
