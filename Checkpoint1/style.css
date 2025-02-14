@@ -14,9 +14,6 @@
     background-color: #04afd1;
     background:
     url(tajMahal.jpg);
-    flex: 1;
-    min-height: 0;
-    min-width: 0;
-    object-fit: cover;
     width: 100%;
+    height: 100%;
 }
