@@ -3,8 +3,14 @@ body{
     background-attachment: fixed;
 }
 .brand_logo{
-    width: 200px;
+    width: 100px;
     margin-top: 20px;
+}
+.brand_name{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
 }
 ul{
     list-style: none;
@@ -17,5 +23,5 @@ li{
     padding: 0px 10px;
 }
 a{
-    color: black;
+    color: yel
 }
