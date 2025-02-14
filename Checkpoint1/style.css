@@ -1,4 +1,3 @@
-
-nav>ui>li{
+.navbar-nav mr-auto{
     display: inline;
 }
