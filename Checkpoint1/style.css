@@ -1,9 +1,4 @@
-ul{
-    list-style: none;
-   
-}
 
-
-li{
+nav>ui>li{
     display: inline;
 }
