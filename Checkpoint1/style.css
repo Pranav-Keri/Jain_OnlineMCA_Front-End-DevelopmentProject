@@ -1,3 +1,12 @@
+.navbar a {
+    color: #FFC107; /* Gold color */
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a:hover {
+    color: #FFC107; /* Keep the same color */
+    text-decoration: none;
+}
 .bg-custom{
     background-color: #04afd1;
 }
