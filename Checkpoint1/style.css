@@ -1,19 +1,79 @@
-.bg-custom{
+/* Custom Navbar Background */
+.bg-custom {
     background-color: #04afd1;
 }
-.navbar-brand{
+
+/* Navbar Brand */
+.navbar-brand {
     color: darkgoldenrod;
     text-decoration: none;
-}
-.nav-link, .dropdown-item, .display-4, .display-1{
-    color: antiquewhite;
-}
-.jumbotron{
-    align-items: center;
-    justify-content: center;
+    font-weight: bold;
     display: flex;
-    background: url(tajMahal.jpg) no-repeat center center;
-    width: 100%;  /* Full width */
-    height: 400px; /* Adjust height as needed */
-    background-size: contain; /* Ensures the whole image fits */
+    align-items: center;
+}
+
+/* Navbar Links */
+.nav-link, .dropdown-item {
+    color: antiquewhite !important;
+}
+
+/* Hover Effect for Dropdown */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Fullscreen Hero Section */
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh; /* Slightly less than full screen */
+    background: url('tajMahal.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+/* Overlay to Improve Text Readability */
+.jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+/* Text Content on Hero Section */
+.jumbotron h2, .jumbotron h1, .jumbotron a {
+    position: relative;
+    z-index: 1;
+}
+
+/* Large Text for Country Animation */
+.display-1 span {
+    color: gold;
+    font-weight: bold;
+    animation: changeText 1.2s infinite alternate;
+}
+
+/* Country Name Animation */
+@keyframes changeText {
+    0% { content: "India"; }
+    20% { content: "United States"; }
+    40% { content: "France"; }
+    60% { content: "Germany"; }
+    80% { content: "Italy"; }
+    100% { content: "Japan"; }
+}
+
+/* Book Now Button */
+.btn-dark {
+    background-color: #000;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
 }
