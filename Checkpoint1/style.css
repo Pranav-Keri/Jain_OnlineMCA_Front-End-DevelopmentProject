@@ -7,3 +7,8 @@
 .nav-link, .dropdown-item {
     color: antiquewhite;
 }
+.jumbotron{
+    background-color: #04afd1;
+    background:
+    url(Tourist\ place.jpg)
+}
