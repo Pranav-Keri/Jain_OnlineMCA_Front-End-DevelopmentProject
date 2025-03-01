@@ -115,7 +115,6 @@
     background-color: #038aaf;
 }
 
-<<<<<<< HEAD
 /* Services Section */
 .services {
     background-color: #f8f9fa;
@@ -138,21 +137,3 @@
 .service-box:hover {
     transform: scale(1.05);
 }
-=======
-/* Update Package Images */
-.package-img-paris {
-    background: url('https://source.unsplash.com/400x300/?paris,eiffel-tower') no-repeat center center;
-    background-size: cover;
-}
-
-.package-img-newyork {
-    background: url('https://source.unsplash.com/400x300/?new-york,city') no-repeat center center;
-    background-size: cover;
-}
-
-.package-img-tokyo {
-    background: url('https://source.unsplash.com/400x300/?tokyo,japan') no-repeat center center;
-    background-size: cover;
-}
-
->>>>>>> e9949909b1867f8df7e6e7fdce0cc73405a764db
