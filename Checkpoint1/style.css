@@ -35,7 +35,7 @@
     align-items: center;
     text-align: center;
     height: 90vh; /* Slightly less than full screen */
-    background: url('tajMahal.jpg') no-repeat center center;
+    background: url('https://source.unsplash.com/1600x900/?taj-mahal') no-repeat center center;
     background-size: cover;
     color: white;
     position: relative;
@@ -113,4 +113,20 @@
 
 .btn-primary:hover {
     background-color: #038aaf;
+}
+
+/* Update Package Images */
+.package-img-paris {
+    background: url('https://source.unsplash.com/400x300/?paris,eiffel-tower') no-repeat center center;
+    background-size: cover;
+}
+
+.package-img-newyork {
+    background: url('https://source.unsplash.com/400x300/?new-york,city') no-repeat center center;
+    background-size: cover;
+}
+
+.package-img-tokyo {
+    background: url('https://source.unsplash.com/400x300/?tokyo,japan') no-repeat center center;
+    background-size: cover;
 }
