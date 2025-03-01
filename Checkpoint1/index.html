@@ -37,11 +37,30 @@
         </span>
     </nav>
 
+    <!-- Hero Section -->
+    <div class="jumbotron">
+        <h2 class="display-4">Welcome to VideshiYatra</h2>
+        <h1 class="display-1">Visit <span id="changingCountry"></span></h1>
+        <a class="btn btn-dark btn-outline-light" href="#" role="button">Book Now</a>
+    </div>
+
+    <script>
+        // Country Name Animation Logic
+        const countries = ["India", "United States", "France", "Germany", "Italy", "Japan"];
+        let index = 0;
+        function changeCountry() {
+            document.getElementById("changingCountry").innerText = countries[index];
+            index = (index + 1) % countries.length;
+        }
+        setInterval(changeCountry, 1200); // Changes every 1.2s
+        changeCountry();
+    </script>
+
     <!-- Booking Section -->
     <section class="container my-5">
         <div class="row">
             <div class="col-md-6">
-                <img src="booking.jpg" alt="Booking Image" class="img-fluid">
+                <img src="https://source.unsplash.com/600x400/?travel" alt="Booking Image" class="img-fluid">
             </div>
             <div class="col-md-6">
                 <h3>Book Your Trip</h3>
@@ -73,7 +92,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="paris.jpg" class="card-img-top" alt="Paris">
+                    <img src="https://source.unsplash.com/400x300/?paris,eiffel-tower" class="card-img-top" alt="Paris">
                     <div class="card-body">
                         <h5 class="card-title">Paris, France</h5>
                         <p class="card-text">Explore the city of love and visit the Eiffel Tower.</p>
@@ -84,7 +103,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="newyork.jpg" class="card-img-top" alt="New York">
+                    <img src="https://source.unsplash.com/400x300/?new-york,city" class="card-img-top" alt="New York">
                     <div class="card-body">
                         <h5 class="card-title">New York, USA</h5>
                         <p class="card-text">Experience the bright lights of Times Square.</p>
@@ -95,7 +114,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="tokyo.jpg" class="card-img-top" alt="Tokyo">
+                    <img src="https://source.unsplash.com/400x300/?tokyo,japan" class="card-img-top" alt="Tokyo">
                     <div class="card-body">
                         <h5 class="card-title">Tokyo, Japan</h5>
                         <p class="card-text">Discover the blend of tradition and technology.</p>
