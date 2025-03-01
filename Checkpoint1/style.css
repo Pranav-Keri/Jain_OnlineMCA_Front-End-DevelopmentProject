@@ -35,7 +35,7 @@
     align-items: center;
     text-align: center;
     height: 90vh;
-    background: url('https://source.unsplash.com/1600x900/?travel') no-repeat center center;
+    background: url('https://images.unsplash.com/photo-1519121788144-7d92019286df') no-repeat center center;
     background-size: cover;
     color: white;
     position: relative;
@@ -87,6 +87,13 @@
 .container .row {
     display: flex;
     align-items: center;
+}
+
+/* Booking Image Fix */
+.booking-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Style for Package Cards */
