@@ -52,7 +52,7 @@
             document.getElementById("changingCountry").innerText = countries[index];
             index = (index + 1) % countries.length;
         }
-        setInterval(changeCountry, 1200); // Changes every 1.2s
+        setInterval(changeCountry, 1200);
         changeCountry();
     </script>
 
@@ -60,7 +60,7 @@
     <section class="container my-5">
         <div class="row">
             <div class="col-md-6">
-                <img src="https://source.unsplash.com/600x400/?travel" alt="Booking Image" class="img-fluid">
+                <img src="booking.jpg" alt="Booking Image" class="img-fluid">
             </div>
             <div class="col-md-6">
                 <h3>Book Your Trip</h3>
@@ -92,33 +92,30 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1543340901-6bf17ddefc42" class="card-img-top" alt="Paris">
+                    <img src="package1.png" class="card-img-top" alt="Package 1">
                     <div class="card-body">
                         <h5 class="card-title">Paris, France</h5>
                         <p class="card-text">Explore the city of love and visit the Eiffel Tower.</p>
-                        <p><strong>Price:</strong> $1200 | <strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
                         <a href="#" class="btn btn-primary">Book Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1533107862482-0e6974b06ec1" class="card-img-top" alt="New York">
+                    <img src="package2.png" class="card-img-top" alt="Package 2">
                     <div class="card-body">
                         <h5 class="card-title">New York, USA</h5>
                         <p class="card-text">Experience the bright lights of Times Square.</p>
-                        <p><strong>Price:</strong> $1500 | <strong>Rating:</strong> ⭐⭐⭐⭐</p>
                         <a href="#" class="btn btn-primary">Book Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1551948524-5c76aeb8f9e5" class="card-img-top" alt="Tokyo">
+                    <img src="package3.png" class="card-img-top" alt="Package 3">
                     <div class="card-body">
                         <h5 class="card-title">Tokyo, Japan</h5>
                         <p class="card-text">Discover the blend of tradition and technology.</p>
-                        <p><strong>Price:</strong> $1700 | <strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
                         <a href="#" class="btn btn-primary">Book Now</a>
                     </div>
                 </div>
@@ -126,7 +123,6 @@
         </div>
     </section>
 
-    <!-- JavaScript -->
     <script>
         document.getElementById('bookingForm').addEventListener('submit', function(event) {
             event.preventDefault();
