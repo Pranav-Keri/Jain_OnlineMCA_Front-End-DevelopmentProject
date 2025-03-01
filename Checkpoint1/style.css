@@ -21,6 +21,7 @@
 .dropdown-item {
     color: darkslategrey !important;
 }
+
 /* Hover Effect for Dropdown */
 .navbar-nav .dropdown:hover .dropdown-menu {
     display: block;
@@ -80,4 +81,36 @@
     border: none;
     font-size: 20px;
     padding: 10px 20px;
+}
+
+/* Booking Section */
+.container .row {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for Package Cards */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Book Now Button */
+.btn-primary {
+    background-color: #04afd1;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #038aaf;
 }
