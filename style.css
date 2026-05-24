@@ -1,3 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
 /* Custom Navbar Background */
 .bg-custom {
     background-color: #04afd1;
