@@ -1,0 +1,97 @@
+/* Custom Navbar Background */
+.bg-custom {
+    background-color: #04afd1;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar Links */
+.nav-link, .dropdown-item {
+    color: antiquewhite !important;
+}
+
+.dropdown-item {
+    color: darkslategrey !important;
+}
+
+/* Hover Effect for Dropdown */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hero Section */
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    background: url('Images/tajMahal.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Booking Section */
+.booking-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Style for Package Cards */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Services Section */
+.services {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.service-box {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
