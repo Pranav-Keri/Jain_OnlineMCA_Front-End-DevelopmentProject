@@ -138,3 +138,36 @@
 #Services .card {
     height: 100%;
 }
+
+
+/* Gallery Section */
+[name="Gallery"] {
+    background-color: #f8f9fa;
+    padding: 40px 15px; /* slightly uneven spacing */
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 5px; /* small rounded corners */
+    transition: transform 0.2s; /* quick hover effect */
+}
+
+.gallery-img:hover {
+    transform: scale(1.05); /* zoom on hover */
+}
+
+/* About Section */
+[name="About"] {
+    padding: 40px 15px;
+}
+
+[name="About"] img {
+    width: 100%;
+    max-height: 350px; /* a bit smaller */
+    object-fit: contain;
+}
+
+/* Footer */
+footer {
+    font-size: 14px; /* slightly smaller text */
+}
