@@ -40,6 +40,11 @@
     position: relative;
 }
 
+.jumbotron * {
+    position: relative;
+    z-index: 1;
+}
+
 .jumbotron::before {
     content: "";
     position: absolute;
@@ -94,4 +99,38 @@
 
 .service-box:hover {
     transform: scale(1.05);
+}
+
+/* Rating Style */
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 25px;
+    color: lightgray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+    color: gold;
+}
+/* Services Section */
+#Services {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#Services .card {
+    height: 100%;
 }
