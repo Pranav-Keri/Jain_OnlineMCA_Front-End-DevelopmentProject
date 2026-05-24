@@ -1,16 +1,3 @@
-html, body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    flex: 1;
-}
-
 /* Custom Navbar Background */
 .bg-custom {
     background-color: #04afd1;
@@ -46,27 +33,32 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 90vh;
-    background: url('Images/tajMahal.jpg') no-repeat center center;
+
+
+    /* FIX: better viewport handling */
+    min-height: calc(100vh - 70px);
+
+    background: url('Images/tajMahal.jpg') no-repeat center top;
     background-size: cover;
+
     color: white;
     position: relative;
 }
 
+/* Keep text above overlay */
 .jumbotron * {
     position: relative;
     z-index: 1;
 }
 
+/* Dark overlay */
 .jumbotron::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     background: rgba(0, 0, 0, 0.5);
 }
+
 
 /* Booking Section */
 .booking-img {
