@@ -203,9 +203,11 @@ VideshiYatra/
 
 ---
 
-# Author
+# Academic Information
 
-Pranav Keri
+Student: Pranav Keri  
+Program: Jain Online MCA Program  
+Instructor: Nikhil Karale
 
 Jain Online MCA Program
 
