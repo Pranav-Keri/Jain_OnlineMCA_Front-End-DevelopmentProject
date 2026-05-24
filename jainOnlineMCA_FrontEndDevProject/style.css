@@ -78,6 +78,10 @@
     object-fit: cover;
 }
 
+.row > div {
+    margin-bottom: 30px;
+}
+
 /* Services Section */
 .services {
     background-color: #f8f9fa;
