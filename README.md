@@ -199,30 +199,11 @@ VideshiYatra/
 
 ---
 
-# How to Run
-
-1. Clone or download the repository
-2. Open the project folder
-3. Run `index.html` in browser
-
----
-
-# Deployment
-
-Project can be deployed using:
-- GitHub Pages
-- Netlify
-
----
-
 # Author
 
 Pranav Keri
 
 Jain Online MCA Program
 
----
-
-# Copyright
-
-© 2024 VideshiYatra. All Rights Reserved.
+*#Deployed through:
+Used Github Pages to deploy this project!
